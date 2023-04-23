@@ -7,7 +7,7 @@ if ( date = 2050) {
    console.log("March,Human Rights Day")
    console.log("date, Family Day")
    console.log("date, freedom Day")
-let conunt = conunt + 4
+let conunt = conunt + 4 /* let was not declred in the beigning*/
 
 if ( status = "student") {
   console.log( 'June', 'Youth Day')
@@ -29,6 +29,6 @@ console.log( date, "Day of Goodwill")
 let count = count + 1
 
 }
-console.log( Your status is: ', status )
-console.log(The year is: ', date)
-console.log(The total holidays is:', count)
+console.log( Your status is: ', status );
+console.log(The year is: ', date);
+console.log(The total holidays is:', count) ;  /* They did not close the brackets, semilon */
